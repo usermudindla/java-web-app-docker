@@ -23,6 +23,9 @@
 		<spring.version>5.0.7.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://18.138.81.149:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>passw0rd</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -89,7 +92,7 @@
 		    <version>1.2</version>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+		https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
 		<dependency>
 		    <groupId>ch.qos.logback</groupId>
 		    <artifactId>logback-classic</artifactId>
@@ -98,7 +101,7 @@
 
 	</dependencies>
 	
-	<!-- <distributionManagement>
+	  <distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
@@ -109,7 +112,7 @@
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://13.235.8.113:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
-	</distributionManagement> -->
+	</distributionManagement> 
 	
 	<build>
 		<plugins>
